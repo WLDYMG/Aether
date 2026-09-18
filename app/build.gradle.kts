@@ -118,7 +118,7 @@ android {
         versionName = appVersionName
 
         ndk {
-            abiFilters += "arm64-v8a"
+            abiFilters += "armeabi-v7a"
         }
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
